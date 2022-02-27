@@ -1,8 +1,8 @@
 package game
 
 import (
-	"blackjagg/internal/card"
-	"blackjagg/internal/player"
+	"blackjack/internal/card"
+	"blackjack/internal/player"
 	"bufio"
 	"fmt"
 	"os"

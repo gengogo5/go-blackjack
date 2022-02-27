@@ -1,7 +1,7 @@
 package player
 
 import (
-	"blackjagg/internal/card"
+	"blackjack/internal/card"
 	"strings"
 )
 

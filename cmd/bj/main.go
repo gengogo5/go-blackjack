@@ -1,7 +1,7 @@
 package main
 
 import (
-	"blackjagg/internal/game"
+	"blackjack/internal/game"
 )
 
 func main() {
