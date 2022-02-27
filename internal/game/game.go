@@ -138,19 +138,10 @@ func (g Game) printResult(result Result, message string) {
 	printHands(g.dealer)
 	printHands(g.player)
 	delayPrintln("結果: " + result.String())
-	slowPrintln(message)
+	delayPrintln(message)
 }
 
-// 1文字ずつゆっくり表示する
-func slowPrintln(str string) {
-	for _, c := range str {
-		time.Sleep(time.Millisecond * 100)
-		fmt.Printf("%c", c)
-	}
-	println()
-}
-
-// 一行ずつゆっくり表示する
+// 少し待ってから表示する
 func delayPrintln(str string) {
 	time.Sleep(time.Millisecond * 500)
 	println(str)
