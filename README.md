@@ -49,3 +49,9 @@ Golang学習用にブラックジャックを実装
 勝敗の構造体
 
 enum的なものを作ってみたかったので作った
+
+# 実行ファイル作成
+
+```bash
+go build -o ./blackjack cmd/bj/main.go
+```
